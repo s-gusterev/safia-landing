@@ -1,2 +1,25 @@
 .work {
+  margin-bottom: 172px;
+}
+
+.work.container {
+  --container-width: 1060px;
+}
+
+.work__subheading {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.work__heading {
+  text-align: center;
+  margin-bottom: 96px;
+}
+
+.work__item:nth-child(2n) .card-prime {
+  flex-direction: row-reverse;
+}
+
+.work__item:not(:last-child) {
+  margin-bottom: 96px;
 }

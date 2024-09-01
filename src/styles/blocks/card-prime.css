@@ -1,2 +1,18 @@
 .card-prime {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.card-prime__text {
+  max-width: 400px;
+}
+
+.card-prime__image {
+  max-width: 550px;
+}
+
+.card-prime__image img {
+  width: 100%;
 }

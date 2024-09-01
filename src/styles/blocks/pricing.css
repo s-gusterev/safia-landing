@@ -1,2 +1,30 @@
 .pricing {
+  margin-bottom: 132px;
+}
+
+.pricing__subheading {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.pricing__heading {
+  text-align: center;
+  margin-bottom: 176px;
+}
+
+.pricing__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 172px;
+}
+
+.pricing__item {
+  flex-basis: 400px;
+}
+
+.pricing__item:nth-child(2) .card-price {
+  transform: translateY(-81px);
 }
