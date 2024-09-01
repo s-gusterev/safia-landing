@@ -1,0 +1,38 @@
+:root {
+  --font-family: 'Sora', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Noto Sans', Helvetica, Arial, sans-serif;
+
+  --color-primary-900: #070e27;
+  --color-primary-800: #081131;
+  --color-primary-700: #162044;
+  --color-primary-600: #4e5a85;
+  --color-primary-500: #7e8bb6;
+  --color-primary-300: #ccd2e9;
+  --color-primary-200: #f4f7ff;
+  --color-secondary-900: #001a57;
+  --color-secondary-800: #00308f;
+  --color-secondary-600: #0059f7;
+  --color-secondary-300: #689eff;
+  --color-secondary-100: rgba(0, 89, 247, 0.16);
+  --color-light: #fff;
+
+  --container-width: 1280px;
+  --container-offset: 15px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.button-reset {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.btn-reset:disabled {
+  cursor: default;
+}

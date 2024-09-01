@@ -1,13 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/safia.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Safia Landing</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <header class="header container">
+      <a href="#" class="logo"
+        ><svg
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_3_233)">
+            <path
+              d="M28 4C28.3536 4 28.6928 4.14048 28.9428 4.39052C29.1929 4.64057 29.3333 4.97971 29.3333 5.33333V12.6667C28.4493 12.6667 27.6014 13.0179 26.9763 13.643C26.3512 14.2681 26 15.1159 26 16C26 16.8841 26.3512 17.7319 26.9763 18.357C27.6014 18.9821 28.4493 19.3333 29.3333 19.3333V26.6667C29.3333 27.0203 29.1929 27.3594 28.9428 27.6095C28.6928 27.8595 28.3536 28 28 28H4.00001C3.64638 28 3.30724 27.8595 3.0572 27.6095C2.80715 27.3594 2.66667 27.0203 2.66667 26.6667V19.3333C3.55073 19.3333 4.39857 18.9821 5.02369 18.357C5.64882 17.7319 6.00001 16.8841 6.00001 16C6.00001 15.1159 5.64882 14.2681 5.02369 13.643C4.39857 13.0179 3.55073 12.6667 2.66667 12.6667V5.33333C2.66667 4.97971 2.80715 4.64057 3.0572 4.39052C3.30724 4.14048 3.64638 4 4.00001 4H28ZM21.3333 12H10.6667V20H21.3333V12Z"
+              fill="#0059F7"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_3_233">
+              <rect width="32" height="32" fill="white" />
+            </clipPath>
+          </defs></svg
+        >Safia</a
+      >
+      <nav class="header__nav">
+        <button
+          class="button-reset button button--secondary button--color--dark"
+        >
+          Login
+        </button>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="hero"></section>
+      <section class="features"></section>
+      <section class="work"></section>
+      <section class="pricing"></section>
+    </main>
+    <footer class="footer"></footer>
+    <script type="module" src="/src/scripts/main.ts"></script>
   </body>
 </html>
