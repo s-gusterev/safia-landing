@@ -2,15 +2,6 @@
 @import url(./settings.css);
 @import url(./fonts.css);
 
-/* Sections */
-@import url(./blocks/header.css);
-@import url(./blocks/main.css);
-@import url(./blocks/hero.css);
-@import url(./blocks/features.css);
-@import url(./blocks/work.css);
-@import url(./blocks/pricing.css);
-@import url(./blocks/footer.css);
-
 /* Components */
 
 @import url(./blocks/button.css);
@@ -22,3 +13,12 @@
 @import url(./blocks/banner.css);
 @import url(./blocks/logo.css);
 @import url(./blocks/container.css);
+
+/* Sections */
+@import url(./blocks/header.css);
+@import url(./blocks/main.css);
+@import url(./blocks/hero.css);
+@import url(./blocks/features.css);
+@import url(./blocks/work.css);
+@import url(./blocks/pricing.css);
+@import url(./blocks/footer.css);

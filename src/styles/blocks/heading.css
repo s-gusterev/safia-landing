@@ -1,2 +1,26 @@
 .heading {
+  margin: 0;
+  color: var(--color-light);
+  letter-spacing: -0.03em;
+  font-weight: 600;
+  line-height: 133%;
+}
+
+.heading--xl {
+  font-size: 64px;
+  line-height: 125%;
+}
+
+.heading--lg {
+  font-size: 48px;
+}
+
+.heading--md {
+  font-size: 36px;
+  line-height: 111%;
+}
+
+.heading--sm {
+  font-size: 24px;
+  letter-spacing: -0.02em;
 }

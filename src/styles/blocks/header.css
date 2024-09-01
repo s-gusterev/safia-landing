@@ -1,5 +1,10 @@
 .header {
   padding-block: 24px;
+  border-bottom: 1px solid rgb(from var(--color-primary-600) r g b / 0.2);
+  margin-bottom: 64px;
+}
+
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,4 +14,15 @@
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.hero__heading {
+  max-width: 456px;
+}
+
+.hero__description {
+  max-width: 400px;
+  display: grid;
+  justify-items: start;
+  gap: 32px;
 }
