@@ -6,3 +6,9 @@
   color: var(--color-primary-500);
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 18px;
+  }
+}

@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 .footer__social {
@@ -46,4 +47,10 @@
 
 a.footer__text:hover {
   color: var(--color-primary-500);
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    justify-content: center;
+  }
 }

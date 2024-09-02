@@ -26,3 +26,10 @@
   justify-items: start;
   gap: 32px;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-block: 20px;
+    margin-bottom: 56px;
+  }
+}

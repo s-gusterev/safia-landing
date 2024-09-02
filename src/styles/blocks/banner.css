@@ -15,6 +15,7 @@
 .banner--secondary {
   padding: 52px 56px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .banner__text {
@@ -48,4 +49,21 @@
 
 .light .banner__heading {
   color: var(--color-light);
+}
+
+@media screen and (max-width: 768px) {
+  .banner--primary,
+  .banner--secondary {
+    padding: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner--secondary {
+    flex-direction: column;
+  }
+
+  .banner__subheading {
+    text-align: center;
+  }
 }

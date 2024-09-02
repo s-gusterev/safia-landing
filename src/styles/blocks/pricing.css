@@ -33,3 +33,31 @@
   max-width: 1060px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 887px) {
+  .pricing__heading {
+    margin-bottom: 96px;
+  }
+
+  .pricing__item:nth-child(2) .card-price {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pricing__heading {
+    margin-bottom: 96px;
+  }
+
+  .pricing__item:nth-child(2) .card-price {
+    transform: none;
+  }
+
+  .pricing {
+    margin-bottom: 86px;
+  }
+
+  .pricing__list {
+    margin-bottom: 86px;
+  }
+}

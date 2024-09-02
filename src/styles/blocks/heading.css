@@ -34,3 +34,23 @@
 .light .heading {
   color: var(--color-primary-700);
 }
+
+@media screen and (max-width: 768px) {
+  .heading--xl {
+    font-size: 54px;
+  }
+
+  .heading--lg {
+    font-size: 38px;
+  }
+
+  .heading--md {
+    font-size: 26px;
+    line-height: 111%;
+  }
+
+  .heading--sm {
+    font-size: 18px;
+    letter-spacing: -0.02em;
+  }
+}

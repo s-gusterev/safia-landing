@@ -18,3 +18,12 @@
 .card-prime__image img {
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .card-prime {
+    flex-direction: column;
+  }
+  .card-prime__text {
+    max-width: 550px;
+  }
+}

@@ -23,3 +23,13 @@
 .work__item:not(:last-child) {
   margin-bottom: 96px;
 }
+
+@media screen and (max-width: 768px) {
+  .work {
+    margin-bottom: 64px;
+  }
+
+  .work__item:nth-child(2n) .card-prime {
+    flex-direction: column;
+  }
+}
