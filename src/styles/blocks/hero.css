@@ -16,6 +16,8 @@
 
 .hero__image img {
   width: 100%;
+  height: auto;
+  background-color: transparent;
 }
 
 .hero__list {
@@ -26,4 +28,22 @@
   max-width: 1006px;
   margin: 0 auto;
   border-bottom: 1px solid rgb(from var(--color-primary-600) r g b / 0.2);
+}
+
+@media (prefers-color-scheme: light) {
+  .hero__item svg path {
+    fill: #bcc3dc;
+  }
+
+  .hero__list {
+    border-bottom: 1px solid rgb(from var(--color-primary-600) r g b / 0.1);
+  }
+}
+
+.light .hero__item svg path {
+  fill: #bcc3dc;
+}
+
+.light .hero__list {
+  border-bottom: 1px solid rgb(from var(--color-primary-600) r g b / 0.1);
 }

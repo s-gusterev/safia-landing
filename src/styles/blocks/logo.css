@@ -12,3 +12,29 @@
 
   text-decoration: none;
 }
+
+.logo svg path {
+  transition: all 0.3s ease;
+}
+
+.logo:hover svg path {
+  fill: var(--color-light);
+}
+
+@media (prefers-color-scheme: light) {
+  .logo {
+    color: var(--color-primary-800);
+  }
+
+  .logo:hover svg path {
+    fill: var(--color-primary-500);
+  }
+}
+
+.light .logo {
+  color: var(--color-primary-800);
+}
+
+.light .logo:hover svg path {
+  fill: var(--color-primary-500);
+}

@@ -49,3 +49,13 @@
 .button--color--light {
   background: var(--color-secondary-300);
 }
+
+@media (prefers-color-scheme: light) {
+  .button--color--dark {
+    background: var(--color-primary-500);
+  }
+}
+
+.light .button--color--dark {
+  background: var(--color-primary-500);
+}

@@ -39,3 +39,13 @@
 .banner .button:hover {
   background-color: rgb(from var(--color-light) r g b / 0.5);
 }
+
+@media (prefers-color-scheme: light) {
+  .banner__heading {
+    color: var(--color-light);
+  }
+}
+
+.light .banner__heading {
+  color: var(--color-light);
+}

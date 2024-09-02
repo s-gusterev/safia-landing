@@ -13,3 +13,18 @@ html {
 body {
   background-color: var(--color-primary-900);
 }
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--color-primary-200);
+  }
+}
+
+body.light {
+  background-color: var(--color-primary-200);
+}
+
+.light,
+.dark {
+  transition: background-color 500ms ease;
+}

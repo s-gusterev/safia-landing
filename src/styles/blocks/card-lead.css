@@ -27,3 +27,37 @@
   letter-spacing: -0.01em;
   color: var(--color-primary-300);
 }
+
+@media (prefers-color-scheme: light) {
+  .card-lead {
+    border: 1px solid rgba(204, 210, 233, 0.5);
+  }
+
+  .card-lead svg path {
+    fill: var(--color-secondary-600);
+  }
+
+  .card-lead__text {
+    color: rgb(from var(--color-primary-900) r g b / 0.5);
+  }
+
+  .card-lead:hover {
+    background: var(--color-light);
+  }
+}
+
+.light .card-lead {
+  border: 1px solid rgba(204, 210, 233, 0.5);
+}
+
+.light .card-lead svg path {
+  fill: var(--color-secondary-600);
+}
+
+.light .card-lead__text {
+  color: rgb(from var(--color-primary-900) r g b / 0.5);
+}
+
+.light .card-lead:hover {
+  background: var(--color-light);
+}

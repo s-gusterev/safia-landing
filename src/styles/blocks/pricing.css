@@ -28,3 +28,8 @@
 .pricing__item:nth-child(2) .card-price {
   transform: translateY(-81px);
 }
+
+.features__banner {
+  max-width: 1060px;
+  margin: 0 auto;
+}
