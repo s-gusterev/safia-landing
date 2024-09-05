@@ -77,3 +77,19 @@
 .card-price__item:not(:last-child) {
   margin-bottom: 24px;
 }
+
+@media screen and (max-width: 425px) {
+  .card-price {
+    padding: 38px;
+  }
+
+  .card-price__rate {
+    font-size: 48px;
+    padding-bottom: 38px;
+    margin-bottom: 38px;
+  }
+
+  .card-price__item {
+    font-size: 15px;
+  }
+}

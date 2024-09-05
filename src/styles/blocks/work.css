@@ -32,4 +32,8 @@
   .work__item:nth-child(2n) .card-prime {
     flex-direction: column;
   }
+
+  .work__heading {
+    margin-bottom: 56px;
+  }
 }

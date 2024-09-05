@@ -23,6 +23,11 @@
   margin-bottom: 96px;
 }
 
+/* .features__item {
+  opacity: 0;
+  transform: translateY(-32px);
+} */
+
 @media screen and (max-width: 886px) {
   .features {
     padding-bottom: 84px;

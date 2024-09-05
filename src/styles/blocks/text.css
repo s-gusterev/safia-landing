@@ -12,3 +12,9 @@
     font-size: 18px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .text {
+    font-size: 16px;
+  }
+}

@@ -7,3 +7,17 @@
   color: var(--color-primary-500);
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .subheading {
+    font-size: 18px;
+    line-height: 150%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .subheading {
+    font-size: 16px;
+    line-height: 140%;
+  }
+}

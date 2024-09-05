@@ -54,3 +54,23 @@
     letter-spacing: -0.02em;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .heading--xl {
+    font-size: 44px;
+  }
+
+  .heading--lg {
+    font-size: 32px;
+  }
+
+  .heading--md {
+    font-size: 22px;
+    line-height: 111%;
+  }
+
+  .heading--sm {
+    font-size: 16px;
+    letter-spacing: -0.02em;
+  }
+}

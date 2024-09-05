@@ -61,3 +61,13 @@
 .light .card-lead:hover {
   background: var(--color-light);
 }
+
+@media screen and (max-width: 425px) {
+  .card-lead {
+    padding: 24px;
+  }
+
+  .card-lead__text {
+    font-size: 14px;
+  }
+}
