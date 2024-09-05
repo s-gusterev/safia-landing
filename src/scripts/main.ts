@@ -11,7 +11,6 @@ import {
   cardsLight,
 } from './constans';
 
-// Регистрируем плагин ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
 
 const themeToggleBtn = document.getElementById('theme-toggle');
