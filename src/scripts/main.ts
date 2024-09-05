@@ -86,15 +86,8 @@ if (
     filter: 'blur(25px)',
   });
 
-  gsap.set('.hero__item', {
-    opacity: 0,
-    scale: 0.8,
-  });
-
   gsap.set('.features__banner', {
     opacity: 0.8,
-
-    scale: 0.9,
     filter: 'blur(15px)',
   });
 
@@ -114,6 +107,14 @@ if (
   gsap.set('.pricing__item:nth-child(2)', {
     y: 0,
     scale: 1,
+  });
+
+  gsap.set('.card-prime__image', {
+    x: -100,
+  });
+
+  gsap.set('.work__item:nth-child(2n) .card-prime .card-prime__image', {
+    x: 100,
   });
 
   gsap.to('.features__item', {
@@ -136,39 +137,19 @@ if (
     ease: 'power2.out',
   });
 
-  gsap.to('.hero__item', {
+  gsap.to('.features__banner', {
     scrollTrigger: {
-      trigger: '.hero__image',
-      start: 'top 40%',
-
+      trigger: '.features__item:last-child',
+      start: 'top 30%',
       scrub: true,
     },
 
     opacity: 1,
-    scale: 1,
-
+    filter: 'blur(0px)',
     stagger: {
       each: 3,
     },
-    duration: 6,
-    ease: 'power2.out',
-  });
-
-  gsap.to('.features__banner', {
-    scrollTrigger: {
-      trigger: '.features__list',
-      start: 'bottom 50%',
-
-      scrub: true,
-    },
-
-    opacity: 1,
-    scale: 1,
-    filter: 'blur(0px)',
-    stagger: {
-      each: 1,
-    },
-    duration: 1,
+    duration: 5,
   });
 
   gsap.to('.work__item', {
@@ -186,6 +167,22 @@ if (
       each: 1,
     },
     duration: 1,
+  });
+
+  gsap.to('.card-prime__image', {
+    scrollTrigger: {
+      trigger: '.work',
+      start: 'top 90%',
+      end: 'bottom 50%',
+      scrub: true,
+    },
+
+    x: 0,
+    stagger: {
+      each: 3,
+    },
+    duration: 100,
+    ease: 'power2.in',
   });
 
   gsap.to('.pricing__item', {
